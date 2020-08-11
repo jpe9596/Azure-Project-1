@@ -6,4 +6,4 @@ Docker was used to deploy the ansible container on the Jumpbox. Ansible is a pro
 
 The Elk server is on its own virtual network and its running the ELK stack to monitor activity occurring on Web-1 and Web-2.
 
-I can monitor the log activity through kibana 
+I can monitor the log activity through kibana.
