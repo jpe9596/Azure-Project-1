@@ -1,5 +1,8 @@
-Project Elk consists of building out a cloud network for a web appliction and setting up an ELK stack server to monitor its network traffic. 
+Project Elk consists of building out a cloud network for a web appliction and setting up an ELK stack server to monitor network traffic. A deployed and configured ELK stack includes Filebeat and Metricbeat (data collection tools).
 
+Initially created a virtual network, deployed a jump box and installed Docker to spin up an Ansible container. Utilizing an ansible playbook, provisioned a DVWA web application onto two VMs.
+
+Cloud network included virtual networks, virtual machines, network security groups, and load balancers.
 
 I created a Resource Group, Virtual Network, Security Group, and a Jumpbox VM. The Security Group and Jumpbox help in securing the internal network. The internal network encompasses Web-1 and Web-2 VMs, running DVWA. Web-1 and Web-2 are accompanied by a Backend Pool and Load Balancer. The Load Balancer not only provides redundacy and efficient scalability as insurance against DoS attacks, it also provides utility as a line of defense since if an attacker was to penetrate the Security Group they arrive at the Jumpbox or Load Balancer, not the sensitive data in the Web boxes. 
 
