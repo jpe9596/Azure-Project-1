@@ -1,4 +1,4 @@
-Project Elk consists of building out a cloud network for a web appliction and setting up an ELK stack server to monitor network traffic. A deployed and configured ELK stack includes Filebeat and Metricbeat (data collection tools).
+Project Elk consists of building out a cloud network in Azure for a web appliction and setting up an ELK stack server to monitor network traffic. The deployed and configured ELK stack utillized Filebeat and Metricbeat data collection tools for log analysis.
 
 Initially created a virtual network, deployed a jump box and installed Docker to spin up an Ansible container. Utilizing an ansible playbook, provisioned a DVWA web application onto two VMs.
 
